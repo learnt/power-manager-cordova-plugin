@@ -1,0 +1,12 @@
+{
+    "version": "0.0.1",
+    "name": "au.id.currie.power",
+    "cordova_name": "PowerManager",
+    "description": "Power Manager Plugin",
+    "license": "Apache 2.0",
+    "keywords": [
+        "power",
+        "manager"
+    ],
+    "engines": []
+}
