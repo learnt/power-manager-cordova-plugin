@@ -18,7 +18,7 @@ public class PowerManagerPlugin extends CordovaPlugin {
     @Override
     public void initialize(CordovaInterface cordova, CordovaWebView webView) {
         PowerManager powerService = (PowerManager) cordova.getActivity().getSystemService(Context.POWER_SERVICE);
-        lock = powerService.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK, "cordova plugin lock");
+        lock = powerService.newWakeLock(PowerManager.FULL_WAKE_LOCK, "cordova plugin lock");
     }
 
     @Override
